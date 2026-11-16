@@ -182,8 +182,9 @@ h1,h2,h3,p { margin-block: 0; }
 .form-field input::placeholder,.form-field textarea::placeholder { color: #a6b2a8; }
 .form-field textarea { min-height: 119px; resize: vertical; line-height: 1.65; }
 .select-wrap { position: relative; }
-.select-wrap > span { pointer-events: none; position: absolute; right: 20px; top: 50%; transform: translateY(-50%); font-size: 23px; font-weight: 300; color: #547b67; }
-.select-wrap select { padding-right: 49px; cursor: pointer; }
+.select-wrap select { padding-right: 56px; cursor: pointer; -webkit-appearance: none; appearance: none; }
+.select-caret { pointer-events: none; position: absolute; right: 18px; top: 50%; transform: translateY(-50%); width: 22px; height: 22px; display: grid; place-items: center; color: #547b67; }
+.select-caret svg { display: block; width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .form-bottom { display: flex; align-items: center; gap: 23px; margin-top: 7px; }
 .form-submit { white-space: nowrap; flex: none; }
 .form-bottom p { font-size: 10px; line-height: 1.65; color: #92a097; }

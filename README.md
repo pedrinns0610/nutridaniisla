@@ -1,3 +1,5 @@
+> **v1.3.1:** Correção visual do ícone do campo "Sobre o que gostaria de conversar?". A versão completa não inclui CNAME para preservar a prévia no GitHub Pages.
+
 # Danielle Isla · Site V1.3.0 (SEO Belo Horizonte + GitHub Pages)
 
 **Site:** https://nutridaniisla.com.br/  
